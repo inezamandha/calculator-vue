@@ -3,6 +3,8 @@
 A simple, clean, and responsive calculator built with **Vue 3** and **Vite**.  
 Supports percentage logic, positive/negative toggle, real-time expression formatting, and accurate operator handling — with a native-like experience inspired by iOS calculators.
 
+![calculator preview](image.png)
+
 ---
 
 ## ✨ Features
