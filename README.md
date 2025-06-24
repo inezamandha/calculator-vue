@@ -1,35 +1,36 @@
-# calculator
+# 🧮 Vue 3 Calculator
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple, clean, and responsive calculator built with **Vue 3** and **Vite**.  
+Supports percentage logic, positive/negative toggle, real-time expression formatting, and accurate operator handling — with a native-like experience inspired by iOS calculators.
 
-## Recommended IDE Setup
+![calculator preview](image.png)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Customize configuration
+## ✨ Features
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Built using **Vue 3 Composition API**
+- Styled to mimic iOS calculator behavior
+- Handles:
+  - `+/-` toggle
+  - `%` (multiple nested percentages)
+  - `AC`, decimal points, and edge cases
+- Prevents invalid expressions (e.g., two operators in a row)
+- Live result display and expression formatting (e.g., `×`, `÷`, `0%`)
 
-## Project Setup
+---
 
-```sh
+## 🛠 Project Setup
+
+### Install dependencies
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## 🛠 Project Commands
 
-```sh
+### Start development server with hot reload
+
+```bash
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
